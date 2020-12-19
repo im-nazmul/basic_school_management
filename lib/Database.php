@@ -91,7 +91,7 @@
             }
         }
         
-        //update functions
+        //update
         public function update($table, $data, $cond){
             if(!empty($data) && is_array($data)){
                 $keyValue = '';
